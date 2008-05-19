@@ -1,0 +1,6 @@
+category: Publishing
+requires: cygwin libpaper1
+sdesc: "Paper handling library (utilities)"
+ldesc: "The libpaper paper-handling library automates recognition of 
+many different paper types and sizes for programs that need to deal with 
+printed output."
