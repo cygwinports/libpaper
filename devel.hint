@@ -1,5 +1,5 @@
 category: Publishing
-requires: cygwin libpaper1
+requires: libpaper1
 external-source: libpaper
 sdesc: "Paper handling library (development)"
 ldesc: "The libpaper paper-handling library automates recognition of 
