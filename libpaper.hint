@@ -1,0 +1,5 @@
+category: Publishing
+sdesc: "Paper handling library (sources)"
+ldesc: "The libpaper paper-handling library automates recognition of 
+many different paper types and sizes for programs that need to deal with 
+printed output."

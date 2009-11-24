@@ -5,17 +5,18 @@ different paper types and sizes for programs that need to deal with
 printed output.
 
 Runtime requirements:
-  cygwin-1.5.25-11
+  cygwin-1.7.0-64
+  libgcc1-4.3.4-1
 
 Build requirements:
-  autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
-  binutils-20060817-1
-  cygport-0.3.10-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  libtool-2.2.2-2
-  make-3.81-1
+  autoconf2.5-2.63-10
+  automake1.9-1.9.6-10
+  binutils-2.19.51-1
+  cygport-0.9.10-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-1
+  libtool-2.2.7a-14
+  make-3.81-2
   sed-4.1.5-2
 
 Canonical website:
@@ -27,62 +28,23 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libpaper-1.1.23-X-src.tar.bz2
+  unpack libpaper-1.1.23+nmu1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libpaper-1.1.23-X.cygport all
+  cygport ./libpaper-1.1.23+nmu1-X.cygport all
 
 This will create:
-  /usr/src/libpaper-1.1.23-X-src.tar.bz2
-  /usr/src/libpaper-1.1.23-X.tar.bz2
-  /usr/src/libpaper-devel-1.1.23-X.tar.bz2
-  /usr/src/libpaper1-1.1.23-X.tar.bz2
+  /usr/src/libpaper-1.1.23+nmu1-X-src.tar.bz2
+  /usr/src/libpaper-bin-1.1.23+nmu1-X.tar.bz2
+  /usr/src/libpaper-devel-1.1.23+nmu1-X.tar.bz2
+  /usr/src/libpaper1-1.1.23+nmu1-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary packages:
-
-(libpaper)
-  /usr/bin/paperconf.exe
-  /usr/sbin/paperconfig
-  /usr/share/doc/libpaper-1.1.23/COPYING
-  /usr/share/doc/libpaper-1.1.23/ChangeLog
-  /usr/share/doc/libpaper-1.1.23/INSTALL
-  /usr/share/doc/libpaper-1.1.23/README
-  /usr/share/man/man1/paperconf.1.gz
-  /usr/share/man/man5/papersize.5.gz
-  /usr/share/man/man8/paperconfig.8.gz
-
-(libpaper1)
-  /usr/bin/cygpaper-1.dll
-
-(libpaper-devel)
-  /usr/include/paper.h
-  /usr/lib/libpaper.a
-  /usr/lib/libpaper.dll.a
-  /usr/lib/libpaper.la
-  /usr/share/man/man3/defaultpapername.3.gz
-  /usr/share/man/man3/defaultpapersizefile.3.gz
-  /usr/share/man/man3/paperdone.3.gz
-  /usr/share/man/man3/paperfirst.3.gz
-  /usr/share/man/man3/paperinfo.3.gz
-  /usr/share/man/man3/paperinit.3.gz
-  /usr/share/man/man3/paperlast.3.gz
-  /usr/share/man/man3/papernext.3.gz
-  /usr/share/man/man3/paperprev.3.gz
-  /usr/share/man/man3/paperpsheight.3.gz
-  /usr/share/man/man3/paperpsname.3.gz
-  /usr/share/man/man3/paperpswidth.3.gz
-  /usr/share/man/man3/paperwithsize.3.gz
-  /usr/share/man/man3/systempapername.3.gz
-  /usr/share/man/man3/systempapersizefile.3.gz
-
-------------------
-
 Port Notes:
 
------ version 1.1.23-1 -----
+----- version 1.1.23+nmu1-1 -----
 Initial release for Cygwin.
 
 

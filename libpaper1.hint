@@ -1,6 +1,7 @@
 category: Publishing
-requires: libpaper1
-sdesc: "Paper handling library (utilities)"
+requires: libgcc1
+external-source: libpaper
+sdesc: "Paper handling library (runtime)"
 ldesc: "The libpaper paper-handling library automates recognition of 
 many different paper types and sizes for programs that need to deal with 
 printed output."
