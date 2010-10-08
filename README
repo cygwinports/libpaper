@@ -5,19 +5,18 @@ different paper types and sizes for programs that need to deal with
 printed output.
 
 Runtime requirements:
-  cygwin-1.7.0-64
-  libgcc1-4.3.4-1
+  cygwin-1.7.7-1
 
 Build requirements:
-  autoconf2.5-2.63-10
+  autoconf2.5-2.65-1
   automake1.9-1.9.6-10
-  binutils-2.19.51-1
-  cygport-0.9.10-1
+  binutils-2.20.51-2
+  cygport-0.10.0-1
   gawk-3.1.7-1
-  gcc4-core-4.3.4-1
-  libtool-2.2.7a-14
+  gcc4-core-4.5.0-1
+  libtool-2.2.7a-15
   make-3.81-2
-  sed-4.1.5-2
+  sed-4.2.1-1
 
 Canonical website:
   http://packages.debian.org/unstable/source/libpaper
@@ -28,24 +27,27 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack libpaper-1.1.23+nmu1-X-src.tar.bz2
+  unpack libpaper-1.1.24-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./libpaper-1.1.23+nmu1-X.cygport all
+  cygport ./libpaper-1.1.24-X.cygport all
 
 This will create:
-  /usr/src/libpaper-1.1.23+nmu1-X-src.tar.bz2
-  /usr/src/libpaper-bin-1.1.23+nmu1-X.tar.bz2
-  /usr/src/libpaper-devel-1.1.23+nmu1-X.tar.bz2
-  /usr/src/libpaper1-1.1.23+nmu1-X.tar.bz2
+  /usr/src/libpaper-1.1.24-X-src.tar.bz2
+  /usr/src/libpaper-bin-1.1.24-X.tar.bz2
+  /usr/src/libpaper-devel-1.1.24-X.tar.bz2
+  /usr/src/libpaper1-1.1.24-X.tar.bz2
 
 -------------------------------------------
 
 Port Notes:
 
+----- version 1.1.24-1 -----
+Version bump.
+
 ----- version 1.1.23+nmu1-1 -----
-Initial release for Cygwin.
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:

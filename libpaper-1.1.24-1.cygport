@@ -1,7 +1,6 @@
 DESCRIPTION="Paper size/type handling library"
 HOMEPAGE="http://packages.debian.org/unstable/source/libpaper"
 SRC_URI="mirror://debian/pool/main/libp/${PN}/${PN}_${PV}.tar.gz"
-PATCH_URI="mirror://portage/app-text/${PN}/files/${PN}-1.1.14.8-malloc.patch"
 
 PKG_NAMES="${PN} ${PN}1 ${PN}-bin ${PN}-devel"
 libpaper1_CONTENTS="usr/bin/cygpaper-1.dll"

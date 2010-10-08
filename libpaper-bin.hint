@@ -1,5 +1,5 @@
 category: Publishing
-requires: libgcc1 libpaper1
+requires: libpaper1
 external-source: libpaper
 sdesc: "Paper handling library (utilities)"
 ldesc: "The libpaper paper-handling library automates recognition of 
